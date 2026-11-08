@@ -1,6 +1,6 @@
 # Rawinan Bunsai — Portfolio
 
-**Live site: [https://rawinan-txt.github.io/Rawinan-portfolio/](https://rawinan-txt.github.io/Rawinan-portfolio/)**
+**Live site: [https://rawinan-txt.github.io/Rawinan-portfolio2/](https://rawinan-txt.github.io/Rawinan-portfolio2/)**
 
 Personal portfolio of Rawinan Bunsai, a second-year ICT student at Mahidol University, looking for an internship in QA, Business Analysis, Project Management or Software Engineering.
 
