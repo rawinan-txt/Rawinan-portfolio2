@@ -93,6 +93,7 @@ var PROJECTS = [
     tags:[["Languages",["TypeScript"]],["Frontend",["React","Vite","Tailwind CSS","Recharts"]],["Tools",["Git","GitHub"]]],
     github:REPO_BASE+"CondoFlow",
     demo:"",
+    image:{src:"assets/condoflow-reports.png",alt:"CondoFlow Reports and Analytics screen showing five report tabs and summary figures for occupancy",caption:"Reports and Analytics screen, exported from the prototype",href:REPO_BASE+"CondoFlow/blob/main/figma-export/screens/14-admin-reports.svg"},
     overview:[
       "CondoFlow is a high-fidelity, clickable prototype of a condominium unit and tenant management system, written in Thai. It models four user roles (admin, owner, tenant and general user) and the work they do together, from leases and billing to repairs and parcels.",
       "The prototype keeps its sample data in the browser and simulates loading time, so every screen can be tried without a server. It was built by a team of six; the project README describes the work as split by module, and my modules are listed below."
