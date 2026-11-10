@@ -1,6 +1,6 @@
 # Rawinan Bunsai — Portfolio
 
-**Live site: [https://rawinan-txt.github.io/Rawinan-portfolio2/](https://rawinan-txt.github.io/Rawinan-portfolio2/)**
+**Live site: [https://rawinan-txt.github.io/Rawinan-portfolio/](https://rawinan-txt.github.io/Rawinan-portfolio/)**
 
 Personal portfolio of Rawinan Bunsai, a second-year ICT student at Mahidol University, looking for an internship in QA, Business Analysis, Project Management or Software Engineering.
 
@@ -22,10 +22,10 @@ Personal portfolio of Rawinan Bunsai, a second-year ICT student at Mahidol Unive
 │   └── styles.css    all styles, light and dark theme tokens
 ├── js/
 │   ├── data.js       profile, skills and project content (edit text here)
-│   ├── main.js       rendering, project dialog, navigation and theme toggle
-│   └── effects.js    background network, terminal text, scroll reveal, theme transition
+│   └── main.js       rendering, project dialog, navigation and theme toggle
 ├── assets/
-│   └── eerd-improved.png   diagram shown in the Starbucks project
+│   ├── eerd-improved.png        diagram shown in the Starbucks project
+│   └── condoflow-reports.png    screen shown in the CondoFlow project
 └── .nojekyll
 ```
 
