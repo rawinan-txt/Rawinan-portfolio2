@@ -6,11 +6,11 @@ var PROFILE = {
 };
 
 var SKILLS = [
-  {t:"Programming", tags:["Python","Java"]},
+  {t:"Programming", tags:["Python","Java","JavaScript"]},
   {t:"Web Development", tags:["HTML","CSS","JavaScript"]},
   {t:"Database", tags:["MySQL","ER / EER Modelling","Relational Database Design"]},
-  {t:"Analysis & Documentation", tags:["Business Process Analysis","Business Rules","Technical Documentation"]},
-  {t:"Tools", tags:["Git","GitHub","VS Code","AI Tools"]}
+  {t:"Analysis & Documentation", tags:["Business Process Analysis","Business Rules","Technical Documentation","Applied Statistics"]},
+  {t:"Tools", tags:["Git","GitHub","VS Code","Figma","AI coding tools"]}
 ];
 
 var REPO_BASE = "https://github.com/rawinan-txt/";

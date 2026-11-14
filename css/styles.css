@@ -281,3 +281,4 @@ dialog[open]{animation:pop .2s var(--ease);display:flex;flex-direction:column}
   html{scroll-behavior:auto}
   *,*::before,*::after{animation-duration:.001ms!important;animation-delay:0s!important;transition-duration:.001ms!important}
 }
+.t-body .tech-label{margin-top:16px}
