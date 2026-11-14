@@ -23,8 +23,8 @@ function tagHtml(list){return list.map(function(t){return '<span class="tag">'+e
   var g=document.getElementById("projectsGrid");
   PROJECTS.forEach(function(p){
     var tech=p.tags.map(function(t){return '<div><div class="tech-label">'+esc(t[0])+'</div><div class="tags">'+tagHtml(t[1])+'</div></div>'}).join('');
-    var links='<a class="btn ghost" href="'+p.github+'" target="_blank" rel="noopener">'+ICON.gh+' GitHub Repository</a>';
-    if(p.demo)links+='<a class="btn primary" href="'+p.demo+'" target="_blank" rel="noopener">Live Demo '+ICON.ext+'</a>';
+    var links='<a class="btn ghost" href="'+p.github+'" target="_blank" rel="noopener">'+ICON.gh+' GitHub repository</a>';
+    if(p.demo)links+='<a class="btn primary" href="'+p.demo+'" target="_blank" rel="noopener">Live demo '+ICON.ext+'</a>';
     var c=el("article",{class:"card"},
       (p.image?'<figure class="shot"><img src="'+p.image.src+'" alt="'+esc(p.image.alt)+'"></figure>':'')+
       '<div><span class="badge'+(p.kind==="team"?' team':'')+'">'+esc(p.type)+'</span>'+
@@ -46,11 +46,11 @@ function openProject(id){
   var b=document.getElementById("dBadge");b.textContent=p.type;b.className="badge"+(p.kind==="team"?" team":"");
   var h='<div class="dsec"><h3>Overview</h3>'+p.overview.map(function(t){return '<p>'+esc(t)+'</p>'}).join('')+(p.note?'<div class="note">'+esc(p.note)+'</div>':'')+'</div>';
   if(p.image)h+='<figure class="dfig"><a href="'+p.image.href+'" target="_blank" rel="noopener"><img src="'+p.image.src+'" alt="'+esc(p.image.alt)+'"></a><figcaption><span>'+esc(p.image.caption)+'</span><span>Open full size</span></figcaption></figure>';
-  h+='<div class="dsec"><h3>Key Features</h3><ul>'+p.features.map(function(f){return '<li>'+esc(f)+'</li>'}).join('')+'</ul></div>';
-  h+='<div class="dsec"><h3>Technologies Used</h3>'+p.techGroups.map(function(t){return '<div class="tech-label">'+esc(t[0])+'</div><div class="tags">'+tagHtml(t[1])+'</div>'}).join('')+'</div>';
-  h+='<div class="dsec"><h3>My Responsibilities</h3><ul>'+p.resp.map(function(f){return '<li>'+esc(f)+'</li>'}).join('')+'</ul></div>';
-  var l='<a class="btn ghost" href="'+p.github+'" target="_blank" rel="noopener">'+ICON.gh+' GitHub Repository</a>';
-  if(p.demo)l+='<a class="btn primary" href="'+p.demo+'" target="_blank" rel="noopener">Live Demo '+ICON.ext+'</a>';
+  h+='<div class="dsec"><h3>Key features</h3><ul>'+p.features.map(function(f){return '<li>'+esc(f)+'</li>'}).join('')+'</ul></div>';
+  h+='<div class="dsec"><h3>Technologies used</h3>'+p.techGroups.map(function(t){return '<div class="tech-label">'+esc(t[0])+'</div><div class="tags">'+tagHtml(t[1])+'</div>'}).join('')+'</div>';
+  h+='<div class="dsec"><h3>My responsibilities</h3><ul>'+p.resp.map(function(f){return '<li>'+esc(f)+'</li>'}).join('')+'</ul></div>';
+  var l='<a class="btn ghost" href="'+p.github+'" target="_blank" rel="noopener">'+ICON.gh+' GitHub repository</a>';
+  if(p.demo)l+='<a class="btn primary" href="'+p.demo+'" target="_blank" rel="noopener">Live demo '+ICON.ext+'</a>';
   if(p.extraLink)l+='<a class="btn ghost" href="'+p.extraLink.href+'" target="_blank" rel="noopener">'+ICON.doc+' '+esc(p.extraLink.label)+'</a>';
   h+='<div class="dsec"><h3>Links</h3><div class="dlinks">'+l+'</div></div>';
   document.getElementById("dBody").innerHTML=h;

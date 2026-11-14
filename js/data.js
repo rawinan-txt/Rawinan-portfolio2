@@ -16,9 +16,9 @@ var SKILLS = [
 var REPO_BASE = "https://github.com/rawinan-txt/";
 var PROJECTS = [
   {
-    id:"student-life-manager", kind:"individual", type:"Individual Project",
+    id:"student-life-manager", kind:"individual", type:"Individual project",
     name:"Student Life Manager",
-    desc:"A web application that brings a university student's schedule, finances, study plans and GPA planning into one place. It replaces scattered notes and spreadsheets with a single dashboard that works offline in the browser. I built it to practise web development while making something students can actually use.",
+    desc:"A web app for university students to manage their schedule, finances, study plans and GPA in one place. It runs in the browser and saves data locally. I built it as a personal project to practise web development.",
     role:"Sole developer. I planned the features, designed the interface and wrote the application with HTML, CSS and JavaScript.",
     tags:[["Languages",["HTML","CSS","JavaScript"]],["Storage",["Browser localStorage"]],["Tools",["Git","GitHub Pages","AI-assisted development"]]],
     github:REPO_BASE+"student-life-manager",
@@ -44,16 +44,15 @@ var PROJECTS = [
       ["Development tools",["Git","GitHub","GitHub Pages","AI-assisted development tools"]]
     ],
     resp:[
-      "Decided what the app should do and split it into five areas: dashboard, schedule, finance, study and GPA.",
-      "Designed the interface and the light, dark and bilingual experience.",
+      "Planned the features and designed the interface.",
       "Wrote all of the HTML, CSS and JavaScript, including the charts, timer and local data storage.",
-      "Published the project on GitHub and set up the live demo with GitHub Pages.",
-      "Used AI-assisted tools to support coding, debugging and UI improvements."
+      "Published it on GitHub Pages.",
+      "Used AI tools to help with coding, debugging and UI changes."
     ],
     note:"Data is stored only in the browser, so clearing site data removes it."
   },
   {
-    id:"starbucks-database-systems", kind:"team", type:"Team Project",
+    id:"starbucks-database-systems", kind:"team", type:"Team project",
     name:"Starbucks Database Systems",
     desc:"A relational database design for a Starbucks-style beverage ordering and Starbucks Rewards membership system, made for ITDS 221 Database Management Systems at the Faculty of ICT, Mahidol University. It turns three business processes, ordering, inventory and membership, into business rules, ER/EER diagrams, a third normal form schema and a data dictionary. The repository documents the design and does not contain executable SQL.",
     role:"One of five group members who produced the Phase 2 database design report.",
@@ -86,7 +85,7 @@ var PROJECTS = [
     note:"The repository includes the original report, three diagram images and the data dictionary text. It does not include SQL scripts or sample data."
   },
   {
-    id:"condoflow", kind:"team", type:"Team Project",
+    id:"condoflow", kind:"team", type:"Team project",
     name:"CondoFlow",
     desc:"An interactive web prototype of a condominium management system that connects admins, owners, tenants and general users. It covers units, lease contracts, invoices and payment checking, repair requests, parcels, announcements, reports and an audit log. It runs in the browser with sample data and has no real backend.",
     role:"One of six team members. Listed in the team README as Database & Data Analytics Engineer, working on the data models, the reports and audit log, and the parcel handover module.",
@@ -95,8 +94,8 @@ var PROJECTS = [
     demo:"",
     image:{src:"assets/condoflow-reports.png",alt:"CondoFlow Reports and Analytics screen showing five report tabs and summary figures for occupancy",caption:"Reports and Analytics screen, exported from the prototype",href:REPO_BASE+"CondoFlow/blob/main/figma-export/screens/14-admin-reports.svg"},
     overview:[
-      "CondoFlow is a high-fidelity, clickable prototype of a condominium unit and tenant management system, written in Thai. It models four user roles (admin, owner, tenant and general user) and the work they do together, from leases and billing to repairs and parcels.",
-      "The prototype keeps its sample data in the browser and simulates loading time, so every screen can be tried without a server. It was built by a team of six; the project README describes the work as split by module, and my modules are listed below."
+      "CondoFlow is a clickable prototype of a condominium unit and tenant management system, with a Thai interface. It has four user roles (admin, owner, tenant and general user) and covers leases, billing, repairs and parcels.",
+      "It keeps sample data in the browser, so every screen can be tried without a server. Six people built it, and my part is listed under My responsibilities."
     ],
     features:[
       "Four user roles with a role and permission matrix.",
@@ -119,7 +118,7 @@ var PROJECTS = [
       "Designed the data models for the system, such as units, invoices, parcels and audit log entries.",
       "Built the reports and analytics screens with five tabs of Recharts charts.",
       "Worked on the audit log, which is read-only in the interface, and on the transaction history.",
-      "Worked on the parcel module: logging inbound parcels, pickup codes, QR codes and handover."
+      "Worked on the parcel module, which covers logging parcels, pickup codes and handover."
     ],
     note:"This is a prototype. Data is sample data stored in the browser, and there is no real database or server."
   }
